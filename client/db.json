@@ -1,0 +1,44 @@
+{
+
+"Recyclables": {
+
+  "bottles":[
+                {
+                    "Plastic": {
+                        "size": [
+                            "8 oz",
+                            "12 oz",
+                            "16.9 oz",
+                            "500 ml",
+                            "1 liter"
+                        ]
+                    },
+
+                    "Glass": {
+                        "size": [
+                        "50 ml",
+                        "100 ml",
+                        "200 ml",
+                        "500 ml",
+                        "750 ml"
+                        ]
+                    },
+
+                    "Metal": {
+                        "size":[
+                            "355 ml",
+                            "12 oz",
+                            "16 oz"
+                        ]
+                    }
+
+                 }
+             ]
+
+       
+    
+  
+}
+
+
+}
