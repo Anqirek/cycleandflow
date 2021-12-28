@@ -30,7 +30,7 @@ function Login() {
         
     return (
         <form onSubmit={submitLogin}>
-        <label htmlFor="username">Username:</label>
+        <label htmlFor="Email">Email:</label>
         <input
           type="text"
           id="username"

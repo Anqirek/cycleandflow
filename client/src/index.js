@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom';
+import Login from './Home'
+// import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
-   <BrowserRouter>
+   <React.Fragment>
     <App />
-  </BrowserRouter>,
+ 
+  </React.Fragment>,
   document.getElementById('root')
 );
 
