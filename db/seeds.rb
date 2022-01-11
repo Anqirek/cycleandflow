@@ -2,7 +2,7 @@
 puts "Seeding Customers...🙋🏻🙋🏽‍♂️🙋🏾‍♀️"
 
 20.times do
-customer = Customer.create( name:Faker::Name.name, email: Faker::Internet.email, address:Faker::Address.full_address )
+customer = Customer.create(username:Faker::Name.name, email: Faker::Internet.email, address:Faker::Address.full_address )
 end
 
 puts "Seeding Courier...🚚"
@@ -10,7 +10,6 @@ puts "Seeding Courier...🚚"
 courier = Courier.create(
     name:Faker::Name.name, 
     email:Faker::Internet.email,
-    password: BCrypt::Password.create('Your Password'),
     address:Faker::Address.street_address, 
     rating: rand(1..5))
 end
@@ -41,7 +40,7 @@ end
 
 puts "Seeding Pickups...📦"
 20.times do
-pickup = Pickup.create(item_id: Item.all.sample.id, courier_id: Courier.all.sample.id)
+pickup = Pickup.create(item_id: Item.all.sample, courier_id: Courier.all.sample)
 end
 
 

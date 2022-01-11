@@ -1,6 +1,6 @@
 class CouriersController < ApplicationController
   rescue_from ActiveRecord::RecordNotFound, with: :render_not_found
-  before_action :authorize
+  # before_action :authorize
 
 
     def index

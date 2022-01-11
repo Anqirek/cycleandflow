@@ -1,3 +1,3 @@
 class CourierSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id,:name,:email,:address,:password
 end
